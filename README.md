@@ -9,7 +9,7 @@ This project helps determine how much each person needs to pay based on rent, fo
 * Split expenses evenly between all members
 * Clean and readable output format (Rp currency)
 ---
-## How It Works
+## How it Works?
 The program takes several inputs:
 * Rent cost
 * Food expenses
@@ -46,5 +46,5 @@ Perfect for:
 * Budget tracking for small groups
 ---
 ## Author
-**Fauzil**
+**Muhammad Fauzil Adhim**
 GitHub: https://github.com/fauzildev
