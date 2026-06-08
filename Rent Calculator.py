@@ -1,28 +1,26 @@
-## inputs needed
-# Total rent
-# Total food ordered for snacking
-# Electricity units spend
-# Charge per unit
+## input needed
+# Total Hostel Rent
+# Tital Food Ordered
+# Electricity Units Spends
+# Charger Per Unit
 
 ## Output
-# Total amount you've to pay is
+# Total Amount every person have to pay is
 
-rent = int(input("Enter your hostel/flat rent = "))
-food = int(input("Enter the amount of food ordered = "))
-electricity_spend = int(input("Enter the total of electricity spend = "))
-charge_per_unit = int(input("Enter the charge per unit = "))
-persons = int(input("Enter the number of persons living in room = "))
+Rent=int(input("Enter Hostel You Rent:"))
+Food=int(input("Enter Amount of Food You Ordered:"))
+Electricity_Spends=int(input("Enter Total of Electricity Spends:"))
+Charger_Per_Unit=int(input("Enter The Charger Per Unit:"))
+Persons=int(input("Enter the number of persons living in room:"))
 
-total_bill = electricity_spend * charge_per_unit
-total_cost = (food + rent + total_bill)
-output = (food + rent + total_bill) // persons
+Total_Bill= Electricity_Spends * Charger_Per_Unit
+Total_Cost= Food + Total_Bill + Rent
+output= Total_Cost // Persons
 
-print("Each person will pay = ", output)
-
-print("\n===== BILL SUMMARY =====")
-print(f"Total Rent        : Rp{rent:,}")
-print(f"Total Food        : Rp{food:,}")
-print(f"Electricity Bill  : Rp{total_bill:,}")
-print("-----------------------------")
-print(f"Total Cost        : Rp{total_cost:,}")
-print(f"Each Person Pays  : Rp{output:,.2f}")
+print("=====BILL SUMMARY=====")
+print(f"Total Rent =Rp{Rent:,}")
+print(f"Total Food =Rp{Food:,}")
+print(f"Total Electricity Bill =Rp{Electricity_Spends:,}")
+print("----------------------")
+print(f"Total Cost =Rp{Total_Cost:,}")
+print(f"Each Person Pays =Rp{output:,.2f}")
